@@ -2,7 +2,7 @@
   <img
   src="Newsletters API ERD.png"
   alt="Newsletters API ERD">
-  <figcaption>Newsletters API ERD</figcaption>
+  <figcaption>The Entity Relational Diagram for the Newsletters API</figcaption>
 </figure>
 
 
