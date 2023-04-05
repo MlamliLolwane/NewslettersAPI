@@ -1,3 +1,11 @@
+<figure>
+  <img
+  src="Newsletters API ERD.png"
+  alt="Newsletters API ERD">
+  <figcaption>Newsletters API ERD</figcaption>
+</figure>
+
+
 ### iLetters - Newsletters API
 
 This microservice is responsible for composing as well as managing the schools newsletters.
