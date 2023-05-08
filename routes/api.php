@@ -24,4 +24,5 @@ Route::post('/newsletters/store', [NewsletterController::class, 'store']);
 Route::get('/newsletters/show/{id}', [NewsletterController::class, 'show']);
 Route::patch('/newsletters/update/{id}', [NewsletterController::class, 'update']);
 Route::delete('/newsletters/destroy/{id}', [NewsletterController::class, 'destroy']);
+Route::get('/newsletters/count', [NewsletterController::class, 'count_newsletters']);
 

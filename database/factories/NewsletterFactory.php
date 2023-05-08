@@ -18,8 +18,7 @@ class NewsletterFactory extends Factory
             'grade_ids' => '1,2,3',
             'title' => $this->faker->jobTitle(),
             'body' => $this->faker->realText(),
-            'comments' => null,
-            'end_date' => '01 August 2023'
+            'comments' => null
         ];
     }
 }

@@ -19,7 +19,6 @@ class CreateNewslettersTable extends Migration
             $table->string('title');
             $table->text('body');
             $table->string('comments')->nullable();
-            $table->string('end_date');
             $table->softDeletes();
             $table->timestamps();
         });

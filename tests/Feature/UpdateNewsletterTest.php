@@ -19,8 +19,7 @@ class UpdateNewsletterTest extends TestCase
                 'grade_ids' => '1,2',
                 'title' => 'Athletics Day',
                 'body' => 'Good day parents. We would like to remind you of the athletics day that will take
-                        place this coming Friday.',
-                'end_date' => '01 August 2022'
+                        place this coming Friday.'
             ]
         );
 

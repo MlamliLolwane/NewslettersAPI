@@ -27,8 +27,7 @@ class StoreNewsletterRequest extends FormRequest
             'grade_ids' => 'required|string',
             'title' => 'required|string|max:200',
             'body' => 'required|string',
-            'comments' => 'string',
-            'end_date' => 'required|date'
+            'comments' => 'string'
         ];
     }
 }

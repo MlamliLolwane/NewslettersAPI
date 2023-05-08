@@ -14,7 +14,6 @@ class Newsletter extends Model
         'grade_ids',
         'title',
         'body',
-        'comments',
-        'end_date'
+        'comments'
     ];
 }

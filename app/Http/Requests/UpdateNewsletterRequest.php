@@ -27,8 +27,7 @@ class UpdateNewsletterRequest extends FormRequest
             'grade_ids' => 'string',
             'title' => 'string|max:200',
             'body' => 'string',
-            'comments' => 'string',
-            'end_date' => 'date'
+            'comments' => 'string'
         ];
     }
 }

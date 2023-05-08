@@ -80,4 +80,11 @@ class NewsletterController extends Controller
 
         return response()->json($newsletter, Response::HTTP_OK);
     }
+
+    public function count_newsletters()
+    {
+        $newsletter_count = Newsletter::all()->count();
+
+        return response()->json(['data' => $newsletter_count], Response::HTTP_OK);
+    }
 }
